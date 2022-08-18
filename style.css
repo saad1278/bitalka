@@ -1,0 +1,157 @@
+body
+
+{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    direction: rtl;
+}
+.container
+{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background: #808080;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    min-height: 60px;
+    border-bottom: #ccc 5px solid;
+}
+
+header a
+{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 19px;
+}
+header li{
+    float: right;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #brand
+{
+    float: right;
+}
+ header #brand h1
+ {
+     margin: 0;
+     color: #000000;
+
+ }
+ header nav
+ {
+     float: left;
+     margin-top: 10px;
+ }
+ header .saad a
+ {
+     color: #ffffff;
+     
+     display: inline;
+ }
+ header nav a:hover
+ {
+     color: #cccccc;
+     font-weight: bold;
+    font-size: 20px;
+    
+
+ }
+ #showcase
+ {
+     min-height: 450px;
+     background: url("saad11.jpg") no-repeat center;
+     background-size:auto;
+    
+ }
+ #newsletter
+ {
+     padding: 15px;
+     color: #ffffff;
+     background: #353637;
+ }
+ #newsletter h1
+{
+     float: right;
+ }
+ 
+#boxes
+{
+    margin-top: 20px;
+}
+#boxes .box
+{
+    float: right;
+    text-align: center;
+    width: 80%;
+    padding: 60px;
+}
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: rgb(41, 41, 41);
+    
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+}
+@media(max-width:768px)
+{
+    header #brand,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box
+    {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header
+    {
+        padding-bottom: 20px;
+    }
+    .h1{
+        display: block;
+    }
+    
+}
+.games{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    
+}   
+
+
+img{
+    width :300px;
+    height: 300px;
+    
+}
+.img2{
+    padding-right: 40px; 
+    
+}
+.stand{
+    display: flex;
+}
+.i22{
+    padding-right: 20px;
+}
+
+.elc{
+    display: flex;
+}
+.i33{
+    padding-right: 40px;
+}
